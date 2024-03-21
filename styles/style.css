@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* styling header header section */
+header{
+    background-image: url(../images/donation9.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-text h1{
+    font-size:3.3rem ;
+    color: rgba(206, 250, 9, 0.938);
+}
+.header-text p{
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.header-text{
+    width: 826px;
+    height: 320px;
+    margin: 0 auto ;
+    text-align: center;
+}
+.tomato-btn{
+    padding: 23px 55px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FF5959;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 15px;
+}
+/* ---------------------------header section done------------------------ */
+.margin-botton{
+    margin-bottom:50px;
+    /* donate amount section */
+}
+.donate-amount-sec{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tk{
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    font-size: 1.4rem;
+    border-radius: 7px;
+}
+.amount-tk{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 15px;
+    
+}
+.tk-excep{
+    border: ;
+    background-color: #FFEEEE;
+    border: 3px solid #FF5959;
+    color:#FF5959;
+    position: relative;
+
+}
+.amount-tk > .tk > h4{
+    position: relative;
+    top: 43%;
+}
+.other-amount-txt{
+    margin: 15px 0 10px 0;
+}
+/*------------------------ donate amount section done------------------------- */
+
+
+/*-------------------------- donate plan section------------------------------- */
+.donate-plan{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto     ;
+    margin-top: 60px;
+}
+.plan-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.card{
+    width: 360px;
+    height: 352px;
+}
+.card-1{
+    background-color: #cbe8ec;
+}
